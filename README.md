@@ -21,7 +21,7 @@ A Let's Encrypt Certificate is installed in the NGINX configuration. Using NGINX
 
 | Software  | Version   | Description   |
 | :---      | :----     | :---          |
-| Apache Spark | 3.4 | Unified analytics engine for large-scale data processing |
+| Apache Spark | 3.5 | Unified analytics engine for large-scale data processing |
 | Java OpenJDK | 11.0 | Runtime environment for Spark |
 | Scala | 2.11 | Programming language that Spark is built with, providing a powerful interface to Spark's APIs |
 | NGINX | 1.18 | High-performance HTTP server and reverse proxy |
