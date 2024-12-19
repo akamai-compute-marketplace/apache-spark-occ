@@ -18,6 +18,9 @@ fi
 #<UDF name="subdomain" label="Subdomain" example="The subdomain for the DNS record. `www` will be entered if no subdomain is supplied (Requires Domain)" default="">
 #<UDF name="domain" label="Domain" example="The domain for the DNS records: example.com (Requires API token)" default="">
 
+# Spark
+#<UDF name="spark_version" label="Which version of Apache Spark to install" oneOf="3.5.3">
+
 # set force apt non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
