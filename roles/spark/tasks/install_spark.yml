@@ -8,12 +8,12 @@
   block:
     - name: Try downloading Spark from main repository
       get_url:
-        url: "https://downloads.apache.org/spark/{{ spark_version }}/{{ spark_version }}-bin-hadoop3.tgz"
+        url: "https://downloads.apache.org/spark/spark-{{ spark_version }}/{{ spark_version }}-bin-hadoop3.tgz"
         dest: "/tmp/{{ spark_version }}-bin-hadoop3.tgz"
   rescue:
     - name: Download Spark from archive repository
       get_url:
-        url: "https://archive.apache.org/dist/spark/{{ spark_version }}/{{ spark_version }}-bin-hadoop3.tgz"
+        url: "https://archive.apache.org/dist/spark/spark-{{ spark_version }}/{{ spark_version }}-bin-hadoop3.tgz"
         dest: "/tmp/{{ spark_version }}-bin-hadoop3.tgz"
 
 - name: extract spark
