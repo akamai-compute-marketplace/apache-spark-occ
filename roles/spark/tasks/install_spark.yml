@@ -35,7 +35,7 @@
 
 - name: remove /opt/spark/spark-{{ spark_version }}-bin-hadoop3
   file:
-    path: "/opt/spark/spark-{{ spark_version }}-bin-hadoop3.tgz"\
+    path: "/opt/spark/spark-{{ spark_version }}-bin-hadoop3.tgz"
     state: absent
 
 - name: create spark configuration directory
