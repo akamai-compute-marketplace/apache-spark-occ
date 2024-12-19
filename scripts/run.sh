@@ -61,6 +61,7 @@ function build {
   root_pass: ${TEMP_ROOT_PASS}
   
   # spark vars
+  spark_version: ${SPARK_VERSION}
   cluster_name: ${CLUSTER_NAME}
   cluster_size: ${CLUSTER_SIZE}
   spark_user: ${SPARK_USER}
