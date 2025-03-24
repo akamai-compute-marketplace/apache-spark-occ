@@ -19,7 +19,7 @@ fi
 #<UDF name="domain" label="Domain" example="The domain for the DNS records: example.com (Requires API token)" default="">
 
 # Spark
-#<UDF name="spark_version" label="Which version of Apache Spark to install" oneOf="3.5.3">
+#<UDF name="spark_version" label="Which version of Apache Spark to install" oneOf="3.5.5">
 
 # set force apt non-interactive
 export DEBIAN_FRONTEND=noninteractive
