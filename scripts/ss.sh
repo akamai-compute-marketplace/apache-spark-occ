@@ -117,8 +117,10 @@ function setup {
 
   # venv
   cd ${WORK_DIR}
-  pip3 install virtualenv
-  python3 -m virtualenv env
+  # pip3 install virtualenv
+  # python3 -m virtualenv env
+  apt install python3-venv -y
+  python3 -m venv env
   source env/bin/activate
   pip install pip --upgrade
   pip install -r requirements.txt
