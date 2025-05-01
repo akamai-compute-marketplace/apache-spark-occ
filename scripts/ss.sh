@@ -19,7 +19,7 @@ fi
 #<UDF name="domain" label="Domain" example="The domain for the DNS records: example.com (Requires API token)" default="">
 
 # Spark
-#<UDF name="spark_version" label="Which version of Apache Spark to install" oneOf="3.5.3">
+#<UDF name="spark_version" label="Which version of Apache Spark to install" oneOf="3.5.5">
 
 # set force apt non-interactive
 export DEBIAN_FRONTEND=noninteractive
@@ -117,8 +117,8 @@ function setup {
 
   # venv
   cd ${WORK_DIR}
-  pip3 install virtualenv
-  python3 -m virtualenv env
+  apt install python3-venv -y
+  python3 -m venv env
   source env/bin/activate
   pip install pip --upgrade
   pip install -r requirements.txt
