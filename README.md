@@ -15,7 +15,7 @@ A Let's Encrypt Certificate is installed in the NGINX configuration. Using NGINX
 
 ## Distributions
 
-- Ubuntu 22.04 LTS
+- Ubuntu 24.04 LTS
 
 ## Software Included
 
@@ -23,8 +23,8 @@ A Let's Encrypt Certificate is installed in the NGINX configuration. Using NGINX
 | :---      | :----     | :---          |
 | Apache Spark | 3.5 | Unified analytics engine for large-scale data processing |
 | Java OpenJDK | 11.0 | Runtime environment for Spark |
-| Scala | 2.11 | Programming language that Spark is built with, providing a powerful interface to Spark's APIs |
-| NGINX | 1.18 | High-performance HTTP server and reverse proxy |
+| Scala | Latest | Programming language that Spark is built with, providing a powerful interface to Spark's APIs |
+| NGINX | Latest | High-performance HTTP server and reverse proxy |
 | UFW | | Uncomplicated Firewall for managing firewall rules |
 | Fail2ban | | Intrusion prevention software framework for protection against brute-force attacks |
 
